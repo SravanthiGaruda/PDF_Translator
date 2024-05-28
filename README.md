@@ -1,5 +1,4 @@
-# PDF_Translator
-
+# PDF Translator
 This project allows users to upload a PDF file and translate its content to a target language of their choice. The translated PDF is then made available for download. The translation is performed using the MarianMTModel from the Hugging Face Transformers library.
 
 ## Models Used
@@ -7,6 +6,13 @@ This project allows users to upload a PDF file and translate its content to a ta
 - **MarianTokenizer**: Tokenizer for the MarianMTModel, used to preprocess input text before translation.
 - **PDFMiner**: A tool for extracting text from PDF files.
 - **FPDF**: A library for creating PDF files in Python.
+
+## Technologies Used
+- **Python**: Programming language used for backend development.
+- **HTML**: Markup language used for creating the web interface.
+- **CSS**: Styling language used for styling the web interface.
+- **Flask**: Web framework used for building the web application.
+- **Hugging Face Transformers**: Library used for natural language processing tasks, including machine translation.
 
 ## Installation
 1. **Clone the repository:**
@@ -32,7 +38,7 @@ This project allows users to upload a PDF file and translate its content to a ta
     ```bash
     python app.py
     ```
-    
+
 2. **Open your web browser and navigate to `http://localhost:5000`.**
 
 3. **Upload a PDF file and select the target language for translation.**
@@ -46,3 +52,7 @@ This project allows users to upload a PDF file and translate its content to a ta
 - **templates/index.html**: HTML template for the web interface.
 - **uploads**: Directory to store uploaded PDF files.
 - **backend**: Directory containing backend files such as fonts.
+
+---
+
+Feel free to copy and paste this content directly into your GitHub README file. Let me know if you need any further assistance!
