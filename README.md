@@ -52,7 +52,3 @@ This project allows users to upload a PDF file and translate its content to a ta
 - **templates/index.html**: HTML template for the web interface.
 - **uploads**: Directory to store uploaded PDF files.
 - **backend**: Directory containing backend files such as fonts.
-
----
-
-Feel free to copy and paste this content directly into your GitHub README file. Let me know if you need any further assistance!
