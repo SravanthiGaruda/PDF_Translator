@@ -1,11 +1,5 @@
 # PDF_Translator
 
-Certainly! Below is the README content formatted for GitHub:
-
----
-
-# PDF Translator
-
 ## Description
 This project allows users to upload a PDF file and translate its content to a target language of their choice. The translated PDF is then made available for download. The translation is performed using the MarianMTModel from the Hugging Face Transformers library.
 
