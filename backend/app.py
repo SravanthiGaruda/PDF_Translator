@@ -93,7 +93,7 @@ def create_pdf_from_text(text):
     pdf.set_auto_page_break(auto=True, margin=15)
     
     # Add DejaVuSans font
-    font_path = '/Users/sravanthi/Desktop/Nvidia Contest/PDF/backend/dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf' 
+    font_path = '<UserpathName>/backend/dejavu-fonts-ttf-2.37/ttf/DejaVuSans.ttf' 
     pdf.add_font('DejaVu', '', font_path, uni=True)
     pdf.set_font('DejaVu', size=10)  # Set the initial font size to 10
 
